@@ -94,7 +94,7 @@ export const projects: Project[] = [
   description:
     "A deep learning framework for forecasting solar flare activity using soft X-ray observations from the Aditya-L1 SoLEXS instrument for space weather prediction.",
 
-  image: "/images/soalrflareImg.png.png",
+  image: "/images/solarflareImg.png",
 
   stack: [
     "PyTorch",
