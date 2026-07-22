@@ -40,19 +40,22 @@ export const aboutTags: string[] = [
   "Problem Solving",
 ];
 
+
 export const experience: TimelineEntry[] = [
   {
     period: "2025 — Present",
     role: "Research Intern",
     org: "IIT Guwahati",
     description:
-      "Working on natural language processing and transformer-based models under faculty guidance, with a focus on making research code reliable enough to scale. Responsibilities span model experimentation, large-scale data processing, and performance optimization of training pipelines.",
+      "Working on solar flare forecasting using deep learning models and satellite-based soft X-ray observations from the Aditya-L1 SoLEXS instrument. Responsibilities include data preprocessing, feature engineering, designing hybrid time-series forecasting architectures, and developing models for flare occurrence and peak flux prediction for space weather applications.",
     tags: [
-      "NLP",
-      "Transformers",
+      "Deep Learning",
+      "Time Series Forecasting",
       "PyTorch",
-      "Data Processing",
-      "Performance Optimization",
+      "PatchTST",
+      "1D CNN",
+      "Aditya-L1",
+      "Space Weather",
     ],
   },
   {
