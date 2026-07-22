@@ -171,7 +171,7 @@ export const projects: Project[] = [
     "Time Series Forecasting",
   ],
 
-  githubUrl: "YOUR_GITHUB_LINK",
+  githubUrl: "https://github.com/GroupDevProjects/HelioSense.git",
 
   detail: {
     overview:
