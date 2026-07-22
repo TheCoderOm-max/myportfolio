@@ -28,14 +28,14 @@ export const highlights: Highlight[] = [
   { value: "SIH '24", label: "Smart India Hackathon Finalist" },
   { value: "5+", label: "Research Publications" },
   { value: "350+", label: "DSA Problems Solved" },
-  { value: "AI · FS", label: "AI & Full-Stack Development" },
+  { value: "DL · FS", label: "Deep Learning & Full-Stack Development" },
 ];
 
 export const aboutTags: string[] = [
   "Software Engineering",
+  "Deep Learning",
+  "Time Series Forecasting",
   "Machine Learning",
-  "NLP",
-  "Backend Systems",
   "Full-Stack Development",
   "Problem Solving",
 ];
@@ -158,12 +158,6 @@ export const projects: Project[] = [
 ];
 
 export const futureProjects: FutureProject[] = [
-  {
-    title: "AI & LLM Applications",
-    description:
-      "New applied-AI and LLM projects in progress — check back soon.",
-    icon: "brain",
-  },
   {
     title: "Open Source",
     description: "Open-source contributions and tooling — coming soon.",
