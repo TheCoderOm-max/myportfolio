@@ -88,6 +88,61 @@ export const education: TimelineEntry[] = [
 ];
 
 export const projects: Project[] = [
+   {
+  key: "solarflare",
+  title: "Solar Flare Forecasting using Aditya-L1",
+  description:
+    "A deep learning framework for forecasting solar flare activity using soft X-ray observations from the Aditya-L1 SoLEXS instrument for space weather prediction.",
+
+  image: "/images/soalrflareImg.png.png",
+
+  stack: [
+    "PyTorch",
+    "Deep Learning",
+    "PatchTST",
+    "1D CNN",
+    "Time Series Forecasting",
+  ],
+
+  githubUrl: "https://github.com/GroupDevProjects/HelioSense.git",
+
+  detail: {
+    overview:
+      "Developed a hybrid deep learning pipeline for solar flare nowcasting and forecasting using satellite-based soft X-ray observations from India's Aditya-L1 mission.",
+
+    problem:
+      "Solar flares can significantly impact satellite communications, navigation systems, and space weather conditions. Accurate forecasting of flare activity remains a challenging multivariate time-series prediction problem.",
+
+    solution:
+      "Designed a hybrid 1D CNN and PatchTST architecture combined with extensive data preprocessing and feature engineering techniques to learn temporal patterns in solar activity and predict future flare events.",
+
+    features: [
+      "Satellite data preprocessing pipeline",
+      "Hybrid CNN + PatchTST architecture",
+      "Solar flare occurrence prediction",
+      "Peak flux forecasting",
+      "Time-series feature engineering",
+    ],
+
+    stack: [
+      "Python",
+      "PyTorch",
+      "PatchTST",
+      "Pandas",
+      "NumPy",
+      "Deep Learning",
+    ],
+
+    challenges:
+      "Handling large-scale satellite datasets, temporal dependencies in solar activity, and class imbalance in flare prediction tasks while maintaining robust forecasting performance.",
+
+    results:
+      "Built an end-to-end deep learning framework for solar flare forecasting and space weather prediction using scientific satellite observations.",
+
+    lessons:
+      "Gained hands-on experience in scientific machine learning, multivariate time-series forecasting, satellite data analysis, and hybrid deep learning model design.",
+  },
+},
   {
     key: "campaign",
     title: "campAIgn",
@@ -155,61 +210,6 @@ export const projects: Project[] = [
         "Reinforced how much systems performance work is really about representative benchmarking — a fast simulator that models the wrong thing is worse than a slow one that models the right thing.",
     },
   },
-  {
-  key: "solarflare",
-  title: "Solar Flare Forecasting using Aditya-L1",
-  description:
-    "A deep learning framework for forecasting solar flare activity using soft X-ray observations from the Aditya-L1 SoLEXS instrument for space weather prediction.",
-
-  image: "/images/solarflare_img.png",
-
-  stack: [
-    "PyTorch",
-    "Deep Learning",
-    "PatchTST",
-    "1D CNN",
-    "Time Series Forecasting",
-  ],
-
-  githubUrl: "https://github.com/GroupDevProjects/HelioSense.git",
-
-  detail: {
-    overview:
-      "Developed a hybrid deep learning pipeline for solar flare nowcasting and forecasting using satellite-based soft X-ray observations from India's Aditya-L1 mission.",
-
-    problem:
-      "Solar flares can significantly impact satellite communications, navigation systems, and space weather conditions. Accurate forecasting of flare activity remains a challenging multivariate time-series prediction problem.",
-
-    solution:
-      "Designed a hybrid 1D CNN and PatchTST architecture combined with extensive data preprocessing and feature engineering techniques to learn temporal patterns in solar activity and predict future flare events.",
-
-    features: [
-      "Satellite data preprocessing pipeline",
-      "Hybrid CNN + PatchTST architecture",
-      "Solar flare occurrence prediction",
-      "Peak flux forecasting",
-      "Time-series feature engineering",
-    ],
-
-    stack: [
-      "Python",
-      "PyTorch",
-      "PatchTST",
-      "Pandas",
-      "NumPy",
-      "Deep Learning",
-    ],
-
-    challenges:
-      "Handling large-scale satellite datasets, temporal dependencies in solar activity, and class imbalance in flare prediction tasks while maintaining robust forecasting performance.",
-
-    results:
-      "Built an end-to-end deep learning framework for solar flare forecasting and space weather prediction using scientific satellite observations.",
-
-    lessons:
-      "Gained hands-on experience in scientific machine learning, multivariate time-series forecasting, satellite data analysis, and hybrid deep learning model design.",
-  },
-},
 ];
 
 export const futureProjects: FutureProject[] = [
