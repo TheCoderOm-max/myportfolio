@@ -21,7 +21,7 @@ export default function Projects() {
           subtitle="A few projects that best represent how I think about AI, systems, and product engineering."
         />
 
-        <div className="grid grid-cols-1 gap-7 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-7">
           {projects.map((project, i) => (
             <Reveal key={project.key} delay={i * 0.08}>
               <article className="flex h-full flex-col overflow-hidden rounded-lg border border-border bg-bg transition-all duration-300 hover:-translate-y-1.5 hover:border-border-strong hover:shadow-lg">
