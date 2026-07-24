@@ -42,14 +42,7 @@ export default function Hero() {
               >
                 View Projects
               </a>
-              <a
-                href="/omResume2028.pdf"
-                download
-                className="inline-flex items-center gap-2 rounded-[9px] border border-border bg-bg-secondary px-[18px] py-2.5 text-[13.5px] font-semibold transition-all hover:border-border-strong hover:bg-bg-tertiary"
-              >
-                <ArrowDown size={12} />
-                Download Resume
-              </a>
+              
               <a
                 href="#contact"
                 className="inline-flex items-center gap-2 px-[18px] py-2.5 text-[13.5px] font-semibold text-text-muted transition-colors hover:text-text"
