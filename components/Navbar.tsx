@@ -44,13 +44,7 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-3.5">
-          <a
-            href="/omResume2028.pdf"
-            download
-            className="hidden rounded-[9px] bg-text px-4 py-2.5 text-[13.5px] font-semibold text-white transition-all hover:-translate-y-px hover:bg-accent hover:shadow-md sm:inline-flex"
-          >
-            Resume
-          </a>
+         
           <button
             aria-label="Toggle menu"
             aria-expanded={mobileOpen}
